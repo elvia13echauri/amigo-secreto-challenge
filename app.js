@@ -43,6 +43,18 @@ function enlistarAmigos() {
 }
 
 //funcion para sortear el amigo
-function sorteoAmigo() {
-    //validar que no esta vacio el 
+function sortearAmigo() {
+    //validar que no esta vacia la lista de nombres
+    if (nombresAmigos.length != 0) {
+        //variable para el indice alearotio
+        let indiceAleatorio = Math.floor(Math.random()*nombresAmigos.length);
+        //variable para el nombre sorteado
+        let nombreSorteado = '<li>' + nombresAmigos[indiceAleatorio] + '</li>';
+        //utilizar el inner para colocar el nombre sorteado en pantalla
+        document.getElementById("resultado").innerHTML = nombreSorteado;
+    }
+    //en caso de estar la lista vacia
+    else {
+        alert("No se han ingresado nombres aún, favor de ingresarlos primero");
+    }
 }
