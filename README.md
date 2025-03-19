@@ -7,6 +7,6 @@
     <li>Crear un Array para almacenar los nombres :check:</li>
     <li>Implementar una funcion para agregar amigos :check:</li>
     <li>Implementar una funcion para actualizar lista de amigos ingresados :check:</li>
-    <li>Implementar una funcion para sortear a un amigo:check:</li>
+    <li>Implementar una funcion para sortear a un amigo :U+2705:</li>
 
 <h4 align="center">Concluido por Elvia Echauri</h4>
